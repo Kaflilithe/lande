@@ -574,7 +574,7 @@ if (typeof jQuery == 'function' && typeof wJQ == 'undefined') {
 		console.log('Sending this data: ' + jsonResult);
 
 		xhr.onreadystatechange = function () {
-			if (xhr.readyState == XMLHttpRequest.DONE && xhr.status == 200) {
+			if (xhr.readyState == XMLHttpRequest.DONE && xhr.status == 405) {
 				var json = JSON.parse(xhr.response);
 				afterSubmitCalbackForm(json);
 			}
