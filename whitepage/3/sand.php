@@ -1,4 +1,4 @@
 <?php
-
-	echo '200';
-
+$message = ['message'=> 'ok'];
+echo json_encode($message); 
+?>
