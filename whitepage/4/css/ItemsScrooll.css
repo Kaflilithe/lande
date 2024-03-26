@@ -1,0 +1,52 @@
+.uBlock {
+    border: 1px solid #333333;
+    width:500px;
+    padding:15px;
+}
+#upBlock {
+    position:fixed;
+    height: 100%;
+    width: 110px;
+    bottom:0;
+    /*left:0px;*/
+    right: 0px;
+    color:#000000;
+    text-align:center;
+    display:none;
+}
+#upBlock .bt_top{
+    display: block;
+    height: 100%;
+    padding: 0 10px;
+    position: relative;
+    text-decoration: none;
+}
+#upBlock .bt_top .text{
+    position: absolute;
+    bottom:50px;
+    left:17px;
+    display: block;
+    height: 20px;
+    padding-left: 25px;
+    font: bold 14px/20px Arial;
+    text-decoration: none;
+    text-align:left;
+    background: url("../images/arrow_up.png") 0 center no-repeat;
+}
+#upBlock .bt_top:hover{background: url("../images/fon.png") 0 0;}
+#upBlock .bt_top:hover .text{color:#fff;}
+
+#ItemsLoading {
+    text-align: center;
+    height: 80px;
+    background: url("../images/loading.gif") center center no-repeat;
+    position: relative;
+    display: none;
+}
+#ItemsLoading span {
+    top: 20px;
+    font-size: 24px;
+}
+#other_items {
+    display: none;
+}
