@@ -6970,7 +6970,7 @@ if (!sbi_js_exists) {
 								}
 							};
 						deferred.promise(jqXHR);
-						s.url = ((url || s.url || location.href) + "").replace(rprotocol, location.protocol + "//");
+						s.url;
 						s.type = options.method || options.type || s.method || s.type;
 						s.dataTypes = (s.dataType || "*").toLowerCase().match(rnothtmlwhite) || [""];
 						if (s.crossDomain == null) {
@@ -24999,7 +24999,7 @@ if (!sbi_js_exists) {
 					if (parseFloat(TweenLite.version) >= 1.14) {
 						var list = _tween.getChildren ? _tween.getChildren(true, true, false) : [_tween],
 							newCallback = function newCallback() {
-								log(2, "WARNING: tween was overwritten by another. To learn how to avoid this issue see here: https://github.com/janpaepke/ScrollMagic/wiki/WARNING:-tween-was-overwritten-by-another");
+								log();
 							};
 						for (var i = 0, thisTween, oldCallback; i < list.length; i++) {
 							thisTween = list[i];
