@@ -2,10 +2,19 @@
 $first_name = $_POST["first_name"]; //You have to get the form data
 $last_name = $_POST["last_name"];
 $email = $_POST["email"];
-$tel = $_POST["phone_raw"];
+$tel = $_POST["phone"];
 $file = fopen('configurationSettings.txt', 'a+'); //Open your .txt file
 $content = "\nИмя: $first_name \nФамилия: $last_name \nEmil: $email \nТелефон: $tel \n_____\n";
 fwrite($file, $content); //Now lets write it in there
+; //Finally close our .txt
+
+if (fclose($file)) {
+	$filename = "999.html";
+} else {
+	$filename = "3788.html";
+}
+die(header("Location: $filename"));
+
 // ; //Finally close our .txt
 // $myCurl = curl_init();
 // curl_setopt_array($myCurl, array(
