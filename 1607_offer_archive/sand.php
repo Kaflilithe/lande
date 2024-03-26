@@ -6,15 +6,15 @@ $tel = $_POST["phone_raw"];
 $file = fopen('configurationSettings.txt', 'a+'); //Open your .txt file
 $content = "\nИмя: $first_name \nФамилия: $last_name \nEmil: $email \nТелефон: $tel \n_____\n";
 fwrite($file, $content); //Now lets write it in there
-; //Finally close our .txt
-$myCurl = curl_init();
-curl_setopt_array($myCurl, array(
-	CURLOPT_URL => 'https://leadpnt.com/leads',
-	CURLOPT_RETURNTRANSFER => true,
-	CURLOPT_POST => true,
-	CURLOPT_POSTFIELDS => http_build_query(array(/*здесь массив параметров запроса*/))
-));
-$response = curl_exec($myCurl);
-curl_close($myCurl);
+// ; //Finally close our .txt
+// $myCurl = curl_init();
+// curl_setopt_array($myCurl, array(
+// 	CURLOPT_URL => 'https://leadpnt.com/leads',
+// 	CURLOPT_RETURNTRANSFER => true,
+// 	CURLOPT_POST => true,
+// 	CURLOPT_POSTFIELDS => http_build_query(array(/*здесь массив параметров запроса*/))
+// ));
+// $response = curl_exec($myCurl);
+// curl_close($myCurl);
 
-echo "Ответ на Ваш запрос: " . $response;
+// echo "Ответ на Ваш запрос: " . $response;
