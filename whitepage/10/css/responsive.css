@@ -1,0 +1,540 @@
+/*######  Design by VTEM http://www.vtem.net All Rights Reserved  ###########*/
+/* Portrait tablet and down */
+
+@media (max-width: 1200px) { 
+	.flex-fon {
+		height: 310px;
+	}
+
+	.menuid319 .flex-fon button, .menuid315 .flex-fon button {
+		left: 25px;
+	}
+
+}
+
+
+@media (max-width: 991px) {
+	.homepage .widget-logo a{bottom: 20px; left: 20px;}
+	.menu-stick, .menu-button-main {
+		background: #fff;
+		float: left;
+		top: -26px;
+		right: -20px;
+		color: #666;
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		-ms-border-radius: 4px;
+		-o-border-radius: 4px;
+		border: 1px solid #666;
+	}
+	.menu-stick, .menu-button-main {
+		width: 46px;
+		height: 40px;
+		line-height: 46px;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 32px;
+		cursor: pointer;
+		position: relative;
+		text-align: center;
+		float: right;
+		/* color: #fff; */
+		z-index: 900;
+	}
+	.oMenuStickOpen .nav.nav-canvas, .oMenuOverwrite{display:block !important;}
+	.main-vtem-menu,
+	.main-vtem-menu li{display:block; width:100% !important; margin:1px 0 !important;}
+	.main-vtem-menu ul,
+	.main-vtem-menu ul ul,
+	.oVertical > .main-vtem-menu ul{position:relative !important; width:100% !important; left:0 !important;}
+	.slideshow .box_skitter .prev_button,
+	.slideshow .box_skitter .next_button{display:none !important;}
+	/*///////K2 COMPONENT /////////////*/
+	.subCategoryContainer{width:100% !important;}
+
+	/*/////// CURRENT THEME ////////////////////*/
+	.footer .vtem-block{padding-bottom: 40px;}
+	.featured-box .widget-customhtml .custom-html-content h2{padding: 35px 0 20px;}
+}
+@media (width: 1024px) and (height:768px){
+	.widget-logo a {
+    display: block;
+    width: 40%;
+    min-height: 75px;
+}
+}
+/* Landscape tablet and up */
+@media (max-width: 768px) {
+
+	.homepage .widget-logo{ clear: both; padding: 20px 0px !important;}
+	.homepage .top-search .search{padding-top: 0;}
+	.homepage .top-search,
+	.homepage .widget-logo, .homepage .widget-logo a {position: absolute;
+    overflow: visible;
+    width: 20%;
+    right: 70px;
+    top: 0;
+    margin: 0;
+    padding: 0;}
+	.homepage .widget-logo a{ background-position:  center center;}
+	.homepage .top-search .search .form-inline input{display: block; box-shadow: none; background: #fff !important;}
+	.homepage .top-search .search{ float: none; display: block; text-align: center;}
+	.homepage .top-search .search .form-inline button,.homepage .top-search .search .form-inline input{ display: inline-block; color: #666; background: #fff !important;}
+	.homepage .widget-logo::before,.homepage .widget-logo::after,.homepage .top-search .search::before,.homepage .top-search .search::after{display: none !important;}
+	.homepage .top-search .search .form-inline{padding: 10px 0px; margin: 0;}
+	.homepage .top-search .form-inline button{height: 38px;top: 10px;}
+	.homepage .top-search .form-inline{ float: none; width: 80%;}
+	.vtem-menu-wrapper {
+    padding-bottom: 5px;
+    position: absolute;
+	/* padding-left: 235%; */
+}
+.top-search .form-inline{width: 100%;}
+.top-search{padding-bottom: 0px;
+    position: absolute;
+    top: 0;}
+	
+
+}
+@media (max-width: 480px) {
+
+	.main-block {
+		height: 245px;
+	}
+
+	.menuid319 .main-block img, .menuid315 .main-block img{
+    margin-left: 0px;
+    margin-top: 20px;
+    max-width: 300px;
+}
+
+.menuid319 .main-block > img, .menuid315 .main-block > img{
+   margin-top: 0px;
+	}
+
+#section14f64406ccc3815, #section14f6444138e25 {
+    position: relative;
+
+}
+
+.home-main .spisok .tipa-li {
+    font-size: 18px;
+    padding: 0px 0;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 5px;
+        flex-direction: initial;
+text-align: left; 
+}
+
+.home-main .spisok {
+    width: 100%;
+    }
+
+
+ /* .mod-languageslanguage {display: none;} */
+ .facebook {display: none;}
+	.left-block {width: 100%;}
+	.right-block {width: 100%;}
+	.widget-logo, .top-search{ width: 100%; clear: both; padding-bottom: 0px; text-align: center;}
+	.top-search{padding-bottom: 0px;
+    position: absolute;
+    top: 0;}
+	.widget-logo .logo0 a{ background-position: center center;}
+	.top-search .form-inline{width: 100%;}
+	.pack {width:100% !important;}
+	.instruction {width:100% !important;}
+	.contacts {color: white;width: 100% !important;text-align: center !important;}
+	.map{width:100% !important;}
+	.aisberg {width:100% !important;}
+	.aisbergtext {width:100% !important;}
+	.mod-languageslanguage img {width: 30px;}
+	.konference img {float:none !important;}	
+	.pack-text {width: 100%;float: left;}
+	.partners {margin-left: -38px;}
+	.lang-inline {list-style: none;display: inline-block;float: right;margin-top: 20px;margin-right: 0px;}
+	.right {float: left;width: 100%;padding-right: 10px;text-align: justify;}
+.custom h2 {font-size: 2em;}
+.indexpic_image-block {float: none; width: 31%;}
+.indexpic_image-block-right {
+     float: none; 
+    left: 0px; 
+    position: relative;
+    width: 25%;   
+}
+#section158b474d28d6464 {background-image:url("../images/top2-bg-mob.jpg");
+  color:#fff;}
+
+#section15a3c73f5884106 {
+  background-image:url("../images/top2-bg-mob.jpg");
+  color:#fff;
+  margin:0 0 10px;
+}
+
+#section158b4a27fc87908 {
+  background-image:url("../images/top-bg-mob.jpg");
+  color:#fff;
+  margin:0 0 10px;
+}
+
+ #section15a4211ebd95837 {
+  background-image:url("../images/top-bg-mob.jpg");
+  color:#fff;
+  margin:0 0 10px;
+}
+
+
+ #section15a4212acd49197 {
+  background-image:url("../images/top2-bg-mob.jpg");
+  color:#fff;
+  margin:0 0 10px;
+}
+
+#section15a4213fc631432 {background-image:url("../images/top2-bg-mob.jpg");
+  color:#fff;}
+
+  .warning2 { width: 100%;}
+
+  .topslider__text {
+   
+    margin: 0 0 0px;
+   
+}
+
+.topslider__text-block {
+    margin: 0px 0 0 40px;
+    width: 100%;
+}
+
+.topslider__capsule {
+    float: left;
+    margin: 20px 0 0 0px;
+}
+
+#cboxWrapper {width: 100% !important;height: 350px !important;}
+#colorbox {width: 100% !important; height: 350px !important;}
+#cboxContent {width: 100% !important;}
+#cboxLoadedContent {width: 100% !important;height: 230px !important;}
+
+.indexpic_text-block {padding: 0px 0 0px;}
+
+.title-h2 { font-size: 27px;}
+
+.bottom {font-size: 30px!important;}
+
+
+.menuid319 .main-block .main-text, .menuid315 .main-block .main-text {
+	margin-top: 40px;
+	font-size: 33px;
+}
+.menuid319 .green-title, .menuid315 .green-title {
+	font-size: 28px;
+}
+
+.menuid319 .table-title, .menuid315 .table-title {
+    padding: 0 0px;
+    font-size: 20px;
+}
+
+.home-main {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    margin-top: 19px;
+}
+
+.menuid319 .tipa-li, .menuid315 .tipa-li {
+    padding: 5px 0;
+    padding: 5px 0;
+    font-size: 17px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 5px;
+    padding-right: 0px;
+}
+
+.menuid319 .tipa-table, .menuid315 .tipa-table {
+    margin-bottom: 40px;
+}
+
+/* .menuid319 .flexible, .menuid315 .flexible {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} */
+
+.menuid319 .flex-col, .menuid315 .flex-col {
+	display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+}
+.flex-col img {
+	margin: 0 auto;
+}
+.flex-fon{
+	height: auto;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuid319 .flex-fon button, .menuid315 .flex-fon button {
+	left: 0;
+	position: relative;
+}
+
+.flex-fon p {
+    margin-bottom: 30px;
+}
+
+.zastosuvannia .zastosuvannia-title,
+.green-tl {
+	font-size: 28px;
+    text-align: center;
+    font-family: inherit;
+}
+.green-tl  {
+	width: 80%;
+}
+ 
+.zastosuvannia .zast-img {
+	margin-top: 10px;
+	margin-left: 26px;
+}
+.map__frame iframe {
+    height: 550px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.menuid319 .third-block p.text, .menuid315 .third-block p.text {
+    font-size: 17px;
+}
+.third-block img {
+    max-width: 100%;
+    /* width: 100%; */
+}
+.vidos {
+	height: auto;
+}
+
+.green-tl {
+    left: 10%; 
+    top: 0%;
+}
+
+/* МІКРОБІОТА */
+
+.menuid338 #section15a4212acd49197, .menuid340 #section15a3c73f5884106 {
+	height: auto;
+}
+
+.menuid340 .main-block, .menuid338 .main-block {
+	margin: 0 auto;
+	height: auto;
+}
+.menuid340 .col-md-offset-4, .menuid338 .col-md-offset-4 {
+    padding-left: 0px;
+}
+.menuid340 .col-md-4, .menuid338 .col-md-4 {
+    padding-left: 55px;
+}
+
+.flexibletab {
+	flex-direction: column;
+	align-items: center;
+	background: none;
+	margin-top: 5px;
+	display: none;
+}
+
+.flexibletab .flex-col {
+	max-width: 60%;
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 20px;
+}
+.flex-col.one, .flex-col.two, .flex-col.three, .flex-col.four, .flex-col.five, .flex-col.six {
+	background-image: none;
+	background: #6BA552;
+}
+
+.flex-col.one.active, .flex-col.two.active, .flex-col.three.active, .flex-col.four.active, .flex-col.five.active, .flex-col.six.active {
+	background-image: none;
+	background-color: #2A3378;
+	color: #FFF;
+}
+
+
+/* мікробіота кишечника */
+
+.menuid328 #section15a4212acd49197, .menuid333 #section15a3c73f5884106 {
+	height: auto;
+}
+
+.menuid328 .main-block .main-text, .menuid333 .main-block .main-text {
+    font-size: 30px;
+    margin-top: 70px;
+    margin-left: 150px;
+}
+
+.tipa-li {
+	flex-direction: column;
+	align-items: center;
+	padding-right: 0;
+	text-align: center;
+}
+
+/* мікробіота дихальних шляхів */
+.menuid329 #section15a4212acd49197, .menuid334 #section15a3c73f5884106 {
+	height: auto;
+	
+}
+.menuid329 .main-block .main-text, .menuid334 .main-block .main-text {
+	font-size: 30px;
+	margin-top: 70px;
+    margin-left: 100px;
+}
+
+.menuid330 #section15a4212acd49197, .menuid335 #section15a3c73f5884106 {
+	height: auto;
+}
+.menuid330 .main-block .main-text, .menuid335 .main-block .main-text {
+	font-size: 30px;
+    margin-top: 50px;
+    margin-left: 170px;
+}
+/* мыкробіота вагітних та годуючих мам */
+
+.menuid331 #section15a4212acd49197, .menuid336 #section15a3c73f5884106 {
+	height: auto;
+}
+.menuid331 .main-block .main-text, .menuid336 .main-block .main-text {
+	font-size: 30px;
+    margin-top: 150px;
+	margin-left: 0px;
+	text-shadow: 1px 2px 1px #FFF;
+}
+
+/* мікробіота сечовидільної системи */
+.menuid332 #section15a4212acd49197, .menuid337 #section15a3c73f5884106 {
+	height: auto;
+}
+
+.menuid332 .main-block .main-text, .menuid337 .main-block .main-text {
+    font-size: 26px;
+    margin-top: 16px;
+    margin-left: -200px;
+}
+.menuid331 #section15a4212acd49197, .menuid336 #section15a3c73f5884106 {
+	background-position: right;
+}
+
+.menuid319 #section15a4211ebd95837, .menuid315 #section158b4a27fc87908 {
+	background-position: left;
+}
+.menu-stick, .menu-button-main {
+	right: 0;
+}
+
+.menuid319 .tipa-li img, .menuid315 .tipa-li img {
+	margin-top: 0;
+}
+
+.menu-stick, .menu-button-main {
+	right: 10px;
+}
+.top-search {
+    right: 85px!important;
+    width: 10%!important;
+}
+
+#section15a3c73f5884106 .visible-xs .col-xs-12,
+#section15a4212acd49197 .visible-xs .col-xs-12 {
+	padding: 0;
+}
+
+.menuid338 #section15a4212acd49197, .menuid340 #section15a3c73f5884106 {
+	background-image: none;	
+}
+
+.microbiota-list-wrap {
+	max-width: 100%;
+}
+.main-block-mob-info {
+	background: #1B3981;
+	padding: 20px 0;
+    border-top: 2px solid #FFF;
+}
+.list-item-yellow {
+	color: #FFF;
+}
+
+.list-item-yellow:before {
+	color: #FFF46D;
+} 
+
+.main-block-mob-title {
+	color: #FFF46D;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.list-item {
+	font-size: 13px;
+	font-family: "LatoI";
+	margin-left: 10px;
+}
+}
+.konference img {float:left;}
+
+@media (max-width: 320px) {
+
+.menuid328 .main-block .main-text, .menuid333 .main-block .main-text {
+    font-size: 27px;
+    margin-top: 70px;
+    margin-left: 120px;
+}
+
+.menuid330 .main-block .main-text, .menuid335 .main-block .main-text {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-left: 145px;
+}
+
+.menuid332 .main-block .main-text, .menuid337 .main-block .main-text {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: -174px;
+}
+
+.menu-stick, .menu-button-main {
+	right: 12px;
+}
+
+.homepage .top-search {
+
+}
+
+.top-search {
+    right: 50px!important;
+    width: 10%!important;
+}
+
+}
+
+
+
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+	.flexibletab {
+		display: none;
+	}
+}

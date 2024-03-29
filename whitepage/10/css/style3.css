@@ -1,0 +1,60 @@
+body a, body a:hover, body a:focus,.widget-social .vtem-social a:hover .fa,.widget-featuredcontent h4,
+.quick-links ul.list-link a:hover,.text-theme, .text-template,.btn.btn-primary:hover,
+.subCategoryContainer .subCategoryMore:hover,
+.vtem-moduletable > .moduletable-content ul.menu li > a:hover,
+.vtem-moduletable > .moduletable-content ul.mostread li > a:hover,
+.vtem-moduletable > .moduletable-content ul.latestnews li > a:hover,
+.pagination > li > a,
+.pagination > li > span,
+.main-vtem-menu > li > a:hover,
+.main-vtem-menu > li > a:focus,
+.main-vtem-menu > li.menu-hover > a,
+.main-vtem-menu > li > span:hover,
+.main-vtem-menu > li.menu-hover > span,
+.main-vtem-menu > li.active > a,
+.main-vtem-menu > li.active > a:hover,
+.main-vtem-menu > li.active > a:focus,
+.main-vtem-menu > li.active > span,
+.main-vtem-menu > li.active > span:hover,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover{/*color:#138152;*/color:#000;}
+
+
+.btn-primary,.footer .custom-html-content .input-group .input-group-addon,
+.bg-theme, .bg-template,
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover,
+.box_skitter .info_slide_dots .image_number_select,
+.box_skitter .info_slide_dots .image_number_select:hover{background-color:#138152; border-color:#138152;}
+.bg-theme, .bg-template{background-color:#138152 !important;}
+
+.btn.btn-primary:after,
+.btn.btn-primary:hover:after, 
+.btn.btn-primary:active:after,
+div.itemCommentsForm form input#submitCommentButton:hover,
+.subCategoryContainer .subCategoryMore:after,
+.subCategoryContainer .subCategoryMore:hover:after,
+.subCategoryContainer .subCategoryMore:active:after{background:none;}
+.btn.btn-primary,.subCategoryContainer .subCategoryMore {border: 1px solid #138152;}
+
+.main-vtem-menu > li > a:hover,
+.main-vtem-menu > li > a:focus,
+.main-vtem-menu > li.menu-hover > a,
+.main-vtem-menu > li > span:hover,
+.main-vtem-menu > li.menu-hover > span,
+.main-vtem-menu > li.active > a,
+.main-vtem-menu > li.active > a:hover,
+.main-vtem-menu > li.active > a:focus,
+.main-vtem-menu > li.active > span,
+.main-vtem-menu > li.active > span:hover{border-top: 6px solid #138152;}
+.homepage .top-search .search:before{border-color: #fff transparent;}
+.widget-logo .logo0 a{background:url(../images/vt_logo_style3.png) left 0 no-repeat;}
+
+@media (max-width: 768px) {
+	.homepage .top-search{background:#138152 !important;}
+}
