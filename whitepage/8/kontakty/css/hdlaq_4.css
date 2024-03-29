@@ -1,0 +1,7 @@
+div > div > div > div:nth-child(1) > div > div.rowItem.col-md-6.col-sm-12.btTextRight.inherit > div > div.btText > h3 {color: red; font-style: italic; font-size: 30px}
+div > div > div > div:nth-child(2) > div > div:nth-child(2) > div > header > div > h3 > span > b {font-size: 20px}
+div > div > div > div > div > div > div > header > div > h1 > span {font-size: 64px; font-weight: 400px}
+.headline {font-weight:400px}
+.main-h1 {font-size:62px}
+h4 > span.headline {font-weight: 300; font-size: 12px}
+div.sTxt {font-weight: 600; font-size: 14px}

@@ -1,0 +1,31 @@
+@font-face {
+font-family: "fontello";
+font-weight: normal;
+font-style: normal;
+src: url(../fonts/fontello.eot);
+src: url(../fonts/fontello.eot#iefix) format("embedded-opentype"),
+url(../fonts/fontello.woff) format("woff"),
+url(../fonts/fontello.ttf) format("truetype"),
+url(../images/fontello.svg#fontello) format("svg");
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+font-family: "fontello";
+font-weight: normal;
+font-style: normal;
+font-variant: normal;
+display: inline-block;
+text-align: center;
+text-decoration: inherit;
+text-transform: none;
+speak: none;
+}
+.icon-up-open:before {
+content: "\e800";
+}
+#scrollUp {
+width: 40px;
+height: 40px;
+text-align: center;
+line-height: 40px;
+}
